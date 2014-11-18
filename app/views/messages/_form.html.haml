@@ -1,0 +1,5 @@
+=form_for [@user, @message] do |f|
+  .form-group
+    =f.label :context, "Context ID"
+    =f.text_area :context, class: "form-control"
+  =f.submit class: "btn btn-primary"
